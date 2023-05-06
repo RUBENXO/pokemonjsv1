@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.ash3 {
+    position: absolute;
+    left: 48%;
+    top: 70%;
+    width: 60px;
+    height: 62px;
+    background: url(/images/sprite/ash3.png);
+    animation: correr 0.5s steps(4) infinite;
+    z-index: 5;
+}
+
+    @keyframes correr {
+        0% {
+            background-position: 0px;
+        }
+
+        100% {
+            background-position: -272px;
+        }
+    }
+
+body {
+    background: url(/images/fondo.jpeg);
+    background-size: 1000%;
+    background-repeat: no-repeat;
+}
+
+.centropokemon {
+    top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokecenter1 {
+    top: 98px;
+    position: absolute;
+    width: 720px;
+    height: 461px;
+    z-index: 2;
+}
+
+.pokecenter2 {
+    top: 98px;
+    position: absolute;
+    width: 720px;
+    height: 461px;
+    z-index: 3;
+}
+
+.gba {
+    width: 60%;
+    z-index: 1;
+}
+
